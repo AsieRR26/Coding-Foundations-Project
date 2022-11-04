@@ -1,0 +1,102 @@
+/* Midline Styles */
+.midline {
+    padding: 40px 50px;
+    background-color: rgb(25, 26, 29);
+    background: -webkit-radial-gradient(top, rgb(65, 68, 78) 100px, rgb(25, 26, 29) 1000px);
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: -30px;
+}
+
+.midline > .left-column {
+    width: 900px;
+    height: 600px;
+    padding: 25px 30px;
+}
+
+.midline > .left-column > .midline-text > .midline-text-text {
+    font-size: 3.1em;
+    display: inline;
+}
+
+.midline > .left-column > .midline-text > .midline-text-text > .Noboldfont {
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(175, 173, 173);
+}
+
+.midline > .left-column > .midline-text > .midline-text-text > .boldfont {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.midline > .left-column > .midline-text > .midline-sub-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midline > .left-column > .midline-text > .midline-sub-text h2 {
+    color: rgba(175, 173, 173);
+    font-size: 2.4em;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.midline > .left-column > .midline-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    width: 600px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.midline > .left-column > .midline-wrapper > .midline-link > .signfree {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4em;
+    font-weight: 800;
+}
+
+.midline > .left-column > .midline-wrapper > .midline-link > .learn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4em;
+    font-weight: 800;
+}
+
+.midline > .right-column {
+    width: 800px;
+    height: 600px;
+    padding: 10px 50px;
+}
+
+.midline > .right-column > .image-mesage {
+    display: flex;
+    padding-left: 100px;
+}
+
+.midline > .right-column > .image-mesage > .Nocolor {
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.midline > .right-column > .image-mesage > .Yescolor {
+    color: rgba(111, 212, 224);
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+
+.midline > .right-column > .midline-square img {
+    width: 800px;
+    height: 585px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: -15px 5px 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -15px 5px 20px rgba(0, 0, 0, 0.5); 
+	-moz-box-shadow: -15px 5px 20px rgba(0, 0, 0, 0.5); 
+    margin-left: 100px;
+}

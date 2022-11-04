@@ -1,0 +1,114 @@
+@media (max-width: 615px) {
+    .header {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .header > .left-column > .header-logo img {
+        order: 1;
+        flex-direction: column;
+        padding-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header > .center-column > .header-explore {
+        order: 2;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header > .center-column > .header-wrapper {
+        order: 3;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .header > .center-column > .header-wrapper > .spark-icon-chevron i {
+        color: black;
+    }
+
+    .header > .right-column > .header-wrapper {
+        order: 4;
+        flex-direction: column;
+        padding-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .midline {
+        order: 5;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .midline > .left-column {
+        font-size: 0.5em;
+        height: 100%;
+        width: 100%;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .midline > .left-column > .midline-wrapper {
+        flex-direction: column;
+        margin-left: -110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .midline > .right-column {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .midline > .right-column > .image-mesage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -120px;
+    }
+
+    .midline > .right-column > .midline-square img {
+        order: 7;
+        flex-direction: column;
+        margin-left: -43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 470px;
+        height: 390px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-top: -190px;
+    }
+
+    .footer > .footer-wrapper {
+        order: 8;
+        flex-direction: column;
+        display: inline;
+    }
+
+    .footer > .footer-wrapper > .footer-link {
+        font-size: 0.8em;
+        border: none;
+    }
+}
